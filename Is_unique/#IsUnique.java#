@@ -1,0 +1,21 @@
+public class IsUnique {
+    public static void main(String args[]) {
+	System.out.println("Hello world ! jai shri RAM");
+    }
+
+
+    public boolean isUnique(String string){
+        char[] chars = string.toCharArray();
+	Set<char> setRecord = new Set<char>();
+	for(char c: chars){
+	    if(setRecord.contains(c)){
+		return false;
+	    }else{
+		setRecord.add();
+	    }
+	}
+
+	return true	
+    }
+    
+}
